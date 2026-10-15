@@ -1,0 +1,18 @@
+**/node_modules/
+**/target/
+**/dist/
+**/.idea/
+**/data/
+**/.env.local
+**/.env.*.local
+**/*.log
+.playwright-mcp/
+
+# Personal configuration and uploaded sample documents
+**/application-local.yml
+**/.env
+sunset-ai/*.pdf
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx

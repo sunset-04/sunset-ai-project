@@ -1,0 +1,7 @@
+# Copy to application-local.yml and fill in your local database settings.
+# Environment variables still override these defaults.
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:mysql://localhost:3306/sunset-ai?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&allowPublicKeyRetrieval=true&useSSL=false}
+    username: ${DB_USERNAME:root}
+    password: ${DB_PASSWORD:}
